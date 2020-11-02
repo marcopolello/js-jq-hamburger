@@ -8,19 +8,28 @@
 
 //voglio che al click di <i> class="fas fa-bars" il div class="hamburger-menu diventi display block"
 
-var acceso = false;
+// var acceso = false;
+// var x = window.matchMedia("(max-width: 1000px)")
+//
+// $('i.fas.fa-bars').click(function(){
+//   if (acceso === true) {
+//     $('.hamburger-menu').toggle('display') === 'block';
+//   } else if (acceso === false) {
+//     $('.hamburger-menu').toggle('display') === 'none';
+//   }
+// });
+// $('i.fas.fa-times').click(function(){
+//   if (acceso === true) {
+//     $('.hamburger-menu').toggle('display') === 'none';
+//   } else {
+//     $('.hamburger-menu').toggle('display') === 'none';
+//   }
+// });
+
 
 $('i.fas.fa-bars').click(function(){
-  if (acceso === true) {
-    $('.hamburger-menu').toggle('display') === 'block';
-  } else {
-    $('.hamburger-menu').toggle('display') === 'none';
-  }
+  $('.hamburger-menu').last().addClass("active");
 });
 $('i.fas.fa-times').click(function(){
-  if (acceso === true) {
-    $('.hamburger-menu').toggle('display') === 'none';
-  } else {
-    $('.hamburger-menu').toggle('display') === 'none';
-  }
+  $('.hamburger-menu').last().removeClass("active");
 });
