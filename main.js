@@ -14,7 +14,7 @@
 // $('i.fas.fa-bars').click(function(){
 //   if (acceso === true) {
 //     $('.hamburger-menu').toggle('display') === 'block';
-//   } else if (acceso === false) {
+//   } else if (acceso === false && x.matches) {
 //     $('.hamburger-menu').toggle('display') === 'none';
 //   }
 // });
