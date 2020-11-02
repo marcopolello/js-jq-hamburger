@@ -28,8 +28,8 @@
 
 
 $('i.fas.fa-bars').click(function(){
-  $('.hamburger-menu').last().addClass("active");
+  $('.hamburger-menu').addClass("active");
 });
 $('i.fas.fa-times').click(function(){
-  $('.hamburger-menu').last().removeClass("active");
+  $('.hamburger-menu').removeClass("active");
 });
